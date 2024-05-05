@@ -2,8 +2,8 @@ function insert_Row() {
     // Retrieve a reference to the table
     var table = document.getElementById('sampleTable');
 
-    // Create a new row
-    var newRow = table.insertRow();
+    // Create a new row at the top of the table
+    var newRow = table.insertRow(0);
 
     // Create cell elements and set their content
     var cell1 = newRow.insertCell(0);
